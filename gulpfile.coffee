@@ -81,7 +81,7 @@ compileTemplates = ->
     .pipe(templateCache({
         root: "/templates/"
         standalone: false
-        module: "starter-app"
+        module: "boiler-app"
       }))
 
 # Concatenate all JS into a single file
